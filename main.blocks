@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="}H|oS](^sgS|5K8PFznZ">Player</variable><variable type="KIND_SpriteKind" id="3A7$P5!I9m85I!)#i)Xz">Projectile</variable><variable type="KIND_SpriteKind" id="UqL]}=ka{;LgZ}(!tn%u">Food</variable><variable type="KIND_SpriteKind" id="Z|-M^GF!qps4rKy*9`2R">Enemy</variable><variable id="dm?zT6$,%MCU`.NPS8sO">doesitwork</variable><variable id="`{j1aDl5~QI+z)bxe`cP">mySprite</variable></variables><block type="pxt-on-start" id="5~!*95jk3Dz([Lbn,vaM" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="J4)YR`{}c(InC?1:2Q%z"><field name="VAR" id="dm?zT6$,%MCU`.NPS8sO">doesitwork</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="LN*1TxFqfdA6N*:K$$_Q"><value name="img"><shadow type="screen_image_picker" id="Z]U`{N4dIwo0qVZ1p:M#"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 5 b . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 b . 
+b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z]U`{N4dIwo0qVZ1p:M#"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Brj[1bs^Wb,[)hbsI@E#"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="%G,`KM#pb9Zt,,n=`Qj@"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="=u3u256V}sdnH@p{!m[0"><field name="VAR" id="dm?zT6$,%MCU`.NPS8sO">doesitwork</field></block></value><value name="value"><shadow type="math_number" id="Ft]($,!{~[P)xuq~6(#u"><field name="NUM">0</field></shadow></value></block></next></block></statement></block></xml>
